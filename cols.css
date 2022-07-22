@@ -7,8 +7,8 @@
 
 /*Optional: Color header boxes*/
 .multicolhead {
-    background-color:#4B9CD3;
-    color: #FFFFFF;
+	background-color: var(--header-background-color);
+	color: var(--inverse-text-color);
 }
 
 .wordwrap { 
