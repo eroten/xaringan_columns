@@ -20,7 +20,7 @@ remark.macros.col_header = function (...titles) {
     //'align-items: stretch;'+
     'padding: 1% 0.25% 1% 0.25%;'+
     'font-size: 80%;' +
-    'margin: 1% 0.25% 1% 0.25%;' + 
+    'margin: 1% 4.5% 1% 4.5%;' + 
     'width: ' + width + '%;">' + 
     titles[i] + 
     '</div>';
@@ -52,7 +52,7 @@ remark.macros.col_list = function (...bodies) {
   '<div class="multicolcol" style="'+
   'float:left;'+
   'font-size: 80%;' +
-  'margin: 0% 0.25% 0% 0.25%;' + 
+  'margin: 0% 4.5% 0% 4.5%;' + 
   'width:' + width + '%;"> <li>' + 
   bodies[i] + 
   '</li> </div>';
@@ -83,7 +83,7 @@ remark.macros.col_row = function (...bodies) {
   '<div class="multicolcol" style="'+
   'float:left;'+
   'font-size: 80%;' +
-  'margin: 0% 0.25% 0% 0.25%;' + 
+  'margin: 0% 4.5% 0% 4.5%;' + 
   'width:' + width + '%;">' + 
   bodies[i] + 
   '</div>';
